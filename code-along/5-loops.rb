@@ -4,8 +4,27 @@
 
 # Infinite Tacos -> Finite Tacos
 # loop do
-#   puts "tacos!"
+#    puts "tacos!"
+#  end
+
+
+# Loop through 
+tacos = ["carnitas", "carne asada", "pollo", "pescado", "mushroom"]
+
+# index = 0
+# loop do
+#     if index == tacos.size
+#         break
+#     end
+
+#     taco = tacos[index]
+
+#     puts "#{taco} tacos!"
+
+#     index = index +1
 # end
 
-# Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+for taco in tacos
+    # do something
+    puts "#{taco} tacos!"
+end
