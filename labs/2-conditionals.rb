@@ -30,3 +30,19 @@ puts die2
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
 puts "The total is: #{total}"
+
+
+# 4. if the total == 7 || 11, winner
+if total == 7 || total == 11
+    puts "YOU WIN!!"
+
+# 5. if the total is 2, 3, or 12, craps
+elsif total == 2 || total == 3 || total == 12
+    puts "YOU LOSE!!"
+
+# 6. anything else, "THE POINT IS #{number}"
+
+else 
+    puts "THE POINT IS #{total}"
+
+end
